@@ -8,6 +8,8 @@
 [node name="Title" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_top = 2.0
+margin_bottom = 2.0
 theme = ExtResource( 1 )
 script = ExtResource( 3 )
 __meta__ = {
@@ -15,26 +17,29 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 790.778
+margin_left = 788.778
 margin_top = 594.135
-margin_right = 1131.78
-margin_bottom = 650.135
+margin_right = 1129.78
+margin_bottom = 655.135
 custom_fonts/font = ExtResource( 5 )
 custom_colors/font_color = Color( 0.533333, 0.392157, 0.392157, 1 )
-text = "by bleeptrack & blinry"
+text = "By bleeptrack & blinry
+(and Viola)"
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label3" type="Label" parent="."]
-margin_left = 709.713
-margin_top = 621.416
-margin_right = 1209.71
-margin_bottom = 677.416
+anchor_top = -0.00185185
+anchor_bottom = -0.00185185
+margin_left = 719.713
+margin_top = 655.416
+margin_right = 1219.71
+margin_bottom = 711.416
 custom_fonts/font = ExtResource( 5 )
 custom_colors/font_color = Color( 0.533333, 0.392157, 0.392157, 1 )
-text = "Original score by winniehell"
+text = "Original score by David Bowie"
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
